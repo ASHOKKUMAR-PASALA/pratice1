@@ -1,0 +1,171 @@
+.box-1 {
+    border: 5px rgb(199, 23, 23) solid;
+    padding: 25px 25px;
+    margin: 25px;
+    color: azure;
+    background-color: black;
+    border-top: 3px dotted red;
+}
+a{
+    text-decoration: none;
+    color: black;
+}
+
+.box-1 h1 {
+    color: blue;
+    text-decoration: underline dotted wheat;
+    letter-spacing: 0.5em;
+    word-spacing: 1em;
+    font-family: 'Times New Roman', Times, serif;
+    text-transform: uppercase;
+    font-style: italic;
+    text-align: center;
+    border-top: 5px;
+}
+.box-1 p{
+    line-height: 1.5em;
+    font-weight: bold;
+}
+
+.box-2 button:hover {
+    background-color: black;
+    color: white;
+
+}  
+.box-2 {
+    border: 2px solid black;
+    margin: 25px;
+    padding: 25px;
+}
+a:hover{
+    color: red;
+}
+a:active {
+    color: green;
+}
+.categories {
+    border: 2px solid black;
+    margin: 25px;
+    border-radius: 15px;
+}
+.categories h2{
+    text-align: center;
+}
+.categories ul{
+    padding: 5px;
+    list-style: none;
+    padding-left: 20px;
+}
+.categories li{
+    padding-bottom: 5px;
+    border-bottom: 2px solid black;
+    list-style-image: url('../images/images.png');
+}
+.myform {
+    padding: 25px;
+}
+.myform .formgroup {
+    padding: 5px;
+}
+.myform .formgroup label{
+    display: block;
+}
+.myform .formgroup input, .formgroup textarea {
+    width: 100%;
+    padding: 4.5px;
+}
+.myform .formgroup button{
+    background-color: black;
+    color: white;
+}
+.myform .formgroup button:hover {
+    background-color: rgb(80, 218, 38);
+    color: black;
+}  
+.pick{
+    margin: 25px;
+}
+.kind{
+    border: 2px solid black;
+    width: 33.3%;
+    float: left;
+    box-sizing: border-box;
+    padding: 5px;
+}
+.kind .p{
+    padding: 5px;
+    margin: 2px;
+}
+.mike{
+    padding:  25px;
+    margin: 5px;
+}
+.nike1{
+    float: left;
+    width: 70%;
+    box-sizing: border-box;
+    font-size: 16px;
+    margin-bottom: 10px;
+}
+.nike2{
+    float: left;
+    width: 30%;
+    background-color: black;
+    color: white;
+    padding: 15px;
+    box-sizing: border-box;
+    margin-bottom: 10px;
+}
+.l-box{
+    margin: 25px;
+    border: 2px solid black;
+    height: 500px;
+    position: relative;
+    
+    
+}
+.l-box h2{
+    top: 40px;
+    left: 100px;
+    position: absolute;
+    font-size: 50px;
+}
+.l-box h3{
+    bottom: 40px;
+    right: 100px;
+    position: absolute;
+    font-size: 50px;
+}
+.fix-me{
+    position: fixed;
+    top: 400px;
+    
+}
+.l-box{
+    background-image: url('../images/light.jpg');
+    background-position: center center;
+    background-image: 30px  25px;
+    
+}
+.button {
+    background-color: black;
+    padding top: 10px;;
+    width: 80px;
+    height: 20px;
+    color: white;
+}
+.items {
+    margin: 25px;
+}
+.items :first-child {
+background-color: red;
+}
+.items :last-child{
+  background-color:  orange;
+}
+.items :nth-child(6){
+   background-color:  brown;
+}
+.items :nth-child(even) {
+   background-color:blanchedalmond;
+}
